@@ -1,11 +1,11 @@
 on:
   push:
     paths:
-      - 'sandbox/sandbox/*'
+      - 'sandbox/*'
     branches: [master]
   pull_request:
     paths:
-      - 'sandbox/sandbox/*'
+      - 'sandbox/*'
     branches: [master]
 
 jobs:
