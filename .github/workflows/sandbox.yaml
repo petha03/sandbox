@@ -2,10 +2,12 @@ on:
   push:
     paths:
       - 'sandbox/*'
+      - '.github/workflows/*'
     branches: [master]
   pull_request:
     paths:
       - 'sandbox/*'
+      - '.github/workflows/*'
     branches: [master]
 
 jobs:
